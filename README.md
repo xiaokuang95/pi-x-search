@@ -29,13 +29,13 @@ Create `~/.pi/agent/x-search.json`:
 Then install:
 
 ```bash
-pi install /Users/crazy/Downloads/x_search_extension
+pi install git:github.com/xiaokuang95/pi-x-search
 ```
 
-Or load it ad hoc:
+Or load it ad hoc from a clone:
 
 ```bash
-pi --extension /Users/crazy/Downloads/x_search_extension/index.ts
+pi --extension ./index.ts
 ```
 
 ## Why two values

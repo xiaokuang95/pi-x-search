@@ -2,6 +2,21 @@
 	"name": "pi-x-search",
 	"version": "0.1.0",
 	"description": "X (Twitter) search for Pi, backed by a logged-in browser session instead of an API key.",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/xiaokuang95/pi-x-search.git"
+	},
+	"homepage": "https://github.com/xiaokuang95/pi-x-search",
+	"keywords": [
+		"pi-package",
+		"pi",
+		"pi-coding-agent",
+		"extension",
+		"x",
+		"twitter",
+		"search"
+	],
 	"type": "module",
 	"pi": {
 		"extensions": [
