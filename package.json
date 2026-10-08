@@ -1,0 +1,23 @@
+{
+	"name": "pi-x-search",
+	"version": "0.1.0",
+	"description": "X (Twitter) search for Pi, backed by a logged-in browser session instead of an API key.",
+	"type": "module",
+	"pi": {
+		"extensions": [
+			"./index.ts"
+		]
+	},
+	"peerDependencies": {
+		"@earendil-works/pi-coding-agent": "*",
+		"typebox": "*"
+	},
+	"peerDependenciesMeta": {
+		"@earendil-works/pi-coding-agent": {
+			"optional": true
+		},
+		"typebox": {
+			"optional": true
+		}
+	}
+}

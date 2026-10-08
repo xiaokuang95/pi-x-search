@@ -1,0 +1,4 @@
+node_modules/
+x-search.json
+x-search-cache.json
+.DS_Store
